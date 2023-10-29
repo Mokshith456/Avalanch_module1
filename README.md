@@ -28,6 +28,8 @@ The `Error_handling` contract in this Solidity program contains three functions:
 - **Parameters**: An unsigned integer, value.
 - **Description**: If the value is not between 100 and 999, the transaction is reverted with a specific error message.
 
+ You can compile the code by simply clicking Ctrl+S, then deploy the smart contract by clicking the deploy option on the left side of your screen. Once the smart contract is deployed, you can provide the parameters to the functions and experiment to see how the code works.
+
 
 ## Authors
 
