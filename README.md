@@ -2,7 +2,7 @@
 
 This Solidity program shows error handling in smart contracts. It includes functions that showcase different error handling methods—`require`, `assert`, and `revert`. These methods are important in Solidity to validate conditions and remove exceptions within smart contacts.
 
-## Description
+## Introduction
 
 We start of by declaring a smart contract named 'Error_handling'.  
 
@@ -14,7 +14,7 @@ The `Error_handling` contract in this Solidity program contains three functions:
 
 3. `revert_method`: Uses the `revert` statement to explicitly revert state changes and stop execution if certain conditions are not fulfilled.
 
-## Usage
+## How to Use
 
 ### require_method
 - **Parameters**: Two unsigned integers, x and y.
