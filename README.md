@@ -36,4 +36,4 @@ mokshithlucky06@gmail.com
 
 ## License
 
-This smart cntract is licensed under the MIT License.
+This smart contract is licensed under the MIT License.
