@@ -1,8 +1,10 @@
 # Solidity Error Handling
 
-This Solidity program demonstrates error handling in smart contracts. It includes functions that showcase different error handling mechanisms—`require`, `assert`, and `revert`. These mechanisms are essential in Solidity to validate conditions and manage exceptions within smart contracts effectively.
+This Solidity program shows error handling in smart contracts. It includes functions that showcase different error handling methods—`require`, `assert`, and `revert`. These methods are important in Solidity to validate conditions and remove exceptions within smart contacts.
 
 ## Description
+
+We start of by declaring a smart contract named 'Error_handling'.  
 
 The `Error_handling` contract in this Solidity program contains three functions:
 
@@ -11,8 +13,6 @@ The `Error_handling` contract in this Solidity program contains three functions:
 2. `assert_method`: Utilizes the `assert` statement to check for conditions that must be true during contract execution. If any condition is not met, it leads to an exception.
 
 3. `revert_method`: Uses the `revert` statement to explicitly revert state changes and stop execution if certain conditions are not fulfilled.
-
-The purpose of this program is to provide a clear understanding of these error handling mechanisms in Solidity and how they can be employed to ensure the integrity of smart contracts by validating conditions and reverting transactions if necessary.
 
 ## Usage
 
@@ -28,15 +28,12 @@ The purpose of this program is to provide a clear understanding of these error h
 - **Parameters**: An unsigned integer, value.
 - **Description**: If the value is not between 100 and 999, the transaction is reverted with a specific error message.
 
-## Getting Started
-
-To interact with this contract, deploy it using a development environment like Remix or on an Ethereum testnet. Once deployed, call the respective functions, providing the required parameters to test the error handling mechanisms.
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Mokshith Putta
+mokshithlucky06@gmail.com
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This smart cntract is licensed under the MIT License.
